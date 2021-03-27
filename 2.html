@@ -15,9 +15,10 @@
       margin-bottom: 0px;
     }
     #line{
+      width: 500px;
       margin-left: 100px;
       margin-bottom: 30px;
-      list-style-type:none;
+      /*list-style-type:none;*/
     }
     #list {
       list-style-type:disc;
@@ -28,12 +29,22 @@
       margin-right: auto;
       width: 50%
     }
+    #grid{
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+    #article{
+      border-left: 1px solid blue;
+      border-top: 1px solid darkblue;
+      padding-left: 20px;
+    }
     </style>
   </head>
   <body>
     <h1> <a href="index.html" >ahrchive</a> </h1>
     <div id= "line"> <li> how can i throw it away </li>
     </div>
+    <div id="grid">
     <div id="list">
     <ul>
       <li> textile </li>
@@ -44,7 +55,11 @@
       <li> plastic </li>
     </ul>
   </div>
+  <div id="article">
     <h2> thinking of </h2>
-    <p><img src="tweety.jpg"width="50%" class="center"</p>
+    <p><img src="tweety_blanket.jpg"width="50%" class="center"></p>
+    <p><img src="shoes_NB990.jpg"width="50%"class="center"></p>
+  </div>
+</div>
   </body>
 </html>
